@@ -142,6 +142,3 @@ Experiment outputs are written to `outputs/`. Depending on the protocol, the cod
 
 Random seeds are set through `ecg_emotion/seeding.py`. Dataset splitting is performed at the subject level for LOSO experiments to keep the held-out participant separate from the source-subject training data.
 
-## Code availability
-
-This private version is provided for peer review. The public repository URL and formal citation can be added after acceptance/publication.
