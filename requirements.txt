@@ -1,0 +1,10 @@
+torch==2.0.1
+numpy==1.26.4
+scipy
+scikit-learn
+matplotlib
+transformers>=4.19.0,<4.28.2
+huggingface_hub
+
+# fairseq_signals is not distributed through PyPI.
+# Install a compatible version from its upstream source repository.

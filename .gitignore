@@ -1,0 +1,22 @@
+# Datasets and pretrained weights
+*.mat
+*.pkl
+*.xlsx
+ckpts/
+DREAMER.mat
+wesad/
+mand/
+
+# Experiment outputs
+outputs/
+*.pt
+*.pth
+*.npz
+
+# Python / IDE
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
