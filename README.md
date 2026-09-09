@@ -131,7 +131,7 @@ The architecture switches used for the ablation experiments are defined in `ABLA
 All presets can be evaluated sequentially with:
 
 ```bash
-python main.py --dataset dreamer --protocol loso --ablation-study
+python main.py --dataset dreamer --protocol intra_subject_kfold --ablation-study
 ```
 
 `use_nmoe` is retained as an internal variable name for compatibility with the experiment code. In the manuscript, this component is described as the learned adaptive/hierarchical expert-fusion mechanism.
