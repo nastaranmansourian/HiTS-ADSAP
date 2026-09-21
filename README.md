@@ -1,21 +1,21 @@
-# HiTS-AMAP
+# HiTS-ADSAP
 
 Code accompanying the manuscript on ECG-based emotion recognition with target-subject calibration.
 
-HiTS-AMAP combines hierarchical representations from a frozen ECG foundation model with an STFT-based spectral representation. The representations are adaptively fused and summarized using average-max attention pooling (AMAP) before classification.
+HiTS-ADSAP combines hierarchical representations from a frozen ECG foundation model with an STFT-based spectral representation. The representations are adaptively fused and summarized using Adaptive Dual-Statistic Attention Pooling (ADSAP) before classification.
 
 > **Review version.** This repository is intended for private peer review. Please do not redistribute the code or datasets. A public version can be released after acceptance/publication.
 
 ## Repository structure
 
 ```text
-HiTS-AMAP/
+HiTS-ADSAP/
 ├── main.py                  # Experiment entry point
 ├── requirements.txt
 └── ecg_emotion/
     ├── config.py            # Dataset, model, and training settings
     ├── data.py              # Dataset loading and preprocessing
-    ├── model.py             # HiTS-AMAP model
+    ├── model.py             # HiTS-ADSAP model
     ├── train.py             # Training and evaluation loops
     ├── diagnostics.py       # Representation diagnostics
     └── seeding.py           # Reproducibility utilities
@@ -36,7 +36,7 @@ Dataset locations are defined in `ecg_emotion/config.py` and can be changed as n
 Expected default layout:
 
 ```text
-HiTS-AMAP/
+HiTS-ADSAP/
 ├── DREAMER.mat
 ├── wesad/
 │   ├── S2_ecg.pkl
