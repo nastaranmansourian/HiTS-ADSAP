@@ -4,7 +4,6 @@ Code accompanying the manuscript on ECG-based emotion recognition with target-su
 
 HiTS-ADSAP combines hierarchical representations from a frozen ECG foundation model with an STFT-based spectral representation. The representations are adaptively fused and summarized using Adaptive Dual-Statistic Attention Pooling (ADSAP) before classification.
 
-> **Review version.** This repository is intended for private peer review. Please do not redistribute the code or datasets. A public version can be released after acceptance/publication.
 
 ## Repository structure
 
